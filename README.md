@@ -1,0 +1,2 @@
+# Adblock
+Script Adblock Openclash
