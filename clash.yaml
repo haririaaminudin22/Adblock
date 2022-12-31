@@ -1,0 +1,58 @@
+proxies:     
+  - name: id-sanggoro-jkt3.1server.co
+    server: 172.64.146.115
+    port: 80
+    type: vmess
+    uuid: 9aba8710-8868-11ed-8990-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: id-sanggoro-jkt3.1server.co
+    udp: true
+  - name: id-atha2.bypass.id
+    server: 172.64.146.115
+    port: 80
+    type: vmess
+    uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: api2-t3.musical.ly
+    network: ws
+    ws-opts: 
+      path: /fastssh/pre_1189075313/vnwk231wibc/
+      headers: 
+        Host: id-atha2.bypass.id
+    udp: true
+  - name: id-vmess.bypass.id
+    server: 172.64.146.115
+    port: 80
+    type: vmess
+    uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: api2-t3.musical.ly
+    network: ws
+    ws-opts: 
+      path: /fastssh/pre_1189075313/vnwk231wibc/
+      headers: 
+        Host: id-vmess.bypass.id
+    udp: true
+  - name: Simple-Sub
+    server: id-sanggoro-jkt1.1server.co
+    port: 443
+    type: trojan
+    password: ad9488a0-6d57-11ed-8616-1577c1651679
+    skip-cert-verify: true
+    sni: api2-t3.musical.ly
+    network: tcp
+    udp: true
