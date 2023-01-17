@@ -1,4 +1,36 @@
 proxies:     
+  - name: sg.xmbb.net
+    server: 172.64.146.115
+    port: 80
+    type: vmess
+    uuid: 091ed1a0-9560-11ed-b2d4-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: sg.xmbb.net
+    udp: true
+  - name: id-ikd1.bypass.id
+    server: 172.64.146.115
+    port: 80
+    type: vmess
+    uuid: 5c6a30a0-9510-11ed-9b8d-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: id-ikd1.bypass.id
+    udp: true
   - name: id-sanggoro-jkt3.1server.co
     server: 172.64.146.115
     port: 80
@@ -14,38 +46,6 @@ proxies:
       path: /fastssh
       headers: 
         Host: id-sanggoro-jkt3.1server.co
-    udp: true
-  - name: id-atha2.bypass.id
-    server: 172.64.146.115
-    port: 80
-    type: vmess
-    uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: api2-t3.musical.ly
-    network: ws
-    ws-opts: 
-      path: /fastssh/pre_1189075313/vnwk231wibc/
-      headers: 
-        Host: id-atha2.bypass.id
-    udp: true
-  - name: id-vmess.bypass.id
-    server: 172.64.146.115
-    port: 80
-    type: vmess
-    uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: api2-t3.musical.ly
-    network: ws
-    ws-opts: 
-      path: /fastssh/pre_1189075313/vnwk231wibc/
-      headers: 
-        Host: id-vmess.bypass.id
     udp: true
   - name: Simple-Sub
     server: id-sanggoro-jkt1.1server.co
